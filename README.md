@@ -118,7 +118,7 @@ streamlit run app.py
 ```
 Интерфейс будет доступен по адресу: http://localhost:8501
 
-**Стек технологий**
+## Стек технологий
 - Machine Learning: Scikit-Learn: Logistic Regression, StandardScaler
 - Pandas: обработка данных
 - NumPy: численные операции
