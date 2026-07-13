@@ -108,40 +108,37 @@ streamlit run app.py
 ```
 Интерфейс будет доступен по адресу: http://localhost:8501
 
-Стек технологий
-Machine Learning:
-Scikit-Learn: Logistic Regression, StandardScaler
-Pandas: обработка данных
-NumPy: численные операции
-Backend:
-FastAPI: REST API
-Pydantic: валидация данных
-Uvicorn: ASGI сервер
-Frontend:
-Streamlit: интерактивный веб-интерфейс
-Tools:
-Git: контроль версий
-Jupyter Notebook: EDA анализ
-Метрики модели
-Метрика
-Значение
-Описание
-Precision
-~0.75
-Минимизация ложных одобрений
-Recall
-~0.70
-Выявление реальных рисков
-F1-Score
-~0.72
-Сбалансированная метрика
-Особенности обучения:
-Использован class_weight="balanced" для работы с дисбалансом классов
-Обязательное масштабирование признаков (StandardScaler)
-Разделение данных: 80% train / 20% test
-Сохранение скейлера вместе с моделью для корректного инференса
-👤 Автор
-Mikhail Demashov (Демашов Михаил)
-Email: noo_noo1999@mail.ru
-Location: Saint Petersburg, Russia
-🔗 GitHub: github.com/devfounder1
+**Стек технологий**
+- Machine Learning: Scikit-Learn: Logistic Regression, StandardScaler
+- Pandas: обработка данных
+- NumPy: численные операции
+
+**Backend:**
+- FastAPI: REST API
+- Pydantic: валидация данных
+- Uvicorn: ASGI сервер
+
+**Frontend:**
+- Streamlit: интерактивный веб-интерфейс
+
+**Tools:**
+- Git: контроль версий
+- Jupyter Notebook: EDA анализ
+
+**Метрики модели**
+| Метрика | Значение | Описание |
+|---------|-----|----------|
+| `Precision` | ~0.75 | Минимизация ложных одобрений |
+| `Recall` | ~0.70 | Выявление реальных рисков |
+| `F1-Score` | ~0.72 | Сбалансированная метрика |
+
+**Особенности обучения:**
+> Использован class_weight="balanced" для работы с дисбалансом классов
+> Обязательное масштабирование признаков (StandardScaler)
+> Разделение данных: 80% train / 20% test
+> Сохранение скейлера вместе с моделью для корректного инференса
+**👤 Автор** 
+- Mikhail Demashov (Демашов Михаил)
+- Email: noo_noo1999@mail.ru
+- Location: Saint Petersburg, Russia
+- 🔗 GitHub: github.com/devfounder1
