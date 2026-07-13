@@ -134,8 +134,7 @@ streamlit run app.py
 **Tools:**
 - Git: контроль версий
 - Jupyter Notebook: EDA анализ
-
-**Метрики модели**
+## Метрики модели
 | Метрика | Значение | Описание |
 |---------|-----|----------|
 | `Precision` | ~0.75 | Минимизация ложных одобрений |
@@ -148,7 +147,7 @@ streamlit run app.py
 > Разделение данных: 80% train / 20% test
 > Сохранение скейлера вместе с моделью для корректного инференса
 
-**👤 Автор** 
+## 👤 Автор  
 - Mikhail Demashov (Демашов Михаил)
 - Email: noo_noo1999@mail.ru
 - Location: Saint Petersburg, Russia
